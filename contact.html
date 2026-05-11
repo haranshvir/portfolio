@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Say hello — Haransh Vir</title>
+    <meta name="description" content="Get in touch with Haransh Vir." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">Haransh Vir</a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <h2>Drop me a line</h2>
+      <p>
+        The best way to reach me is on
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/haranshvirgujral">LinkedIn</a>. I’m happy to hear about collaborations, mentoring, or just swapping recommendations for museums and coffee beans.
+      </p>
+      <div class="contact-card">
+        <h3>Links</h3>
+        <ul>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/haranshvirgujral">LinkedIn</a></li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.skillshare.com/user/haranshvir">Skillshare 1:1 mentoring</a>
+          </li>
+          <li><a href="mailto:hello@haranshvir.com">Email me</a></li>
+        </ul>
+        <p>
+          If you’re interested in samples of product or design work, send me a message and we can go from there — see also
+          <a href="work.html">Work</a>.
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-line">
+        © <span id="y"></span> Haransh Vir
+        ·
+        <a href="mailto:hello@haranshvir.com">Email</a>
+        ·
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/haranshvirgujral">LinkedIn</a>
+        ·
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/haranshvir/">Instagram</a>
+        ·
+        <a target="_blank" rel="noopener noreferrer me" href="https://x.com/haranshvir">X/Twitter</a>
+      </p>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
